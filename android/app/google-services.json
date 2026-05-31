@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "990108223386",
+    "project_id": "cloud-notes-2026",
+    "storage_bucket": "cloud-notes-2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990108223386:android:520d825a7e6d9ba3c31c23",
+        "android_client_info": {
+          "package_name": "com.example.cloud_notes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxE_92IjMWklhsZo7vKAFQAGyT2XryCnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
