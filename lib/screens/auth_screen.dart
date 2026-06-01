@@ -54,6 +54,12 @@ class _AuthScreenState extends ConsumerState<AuthScreen> {
             const SizedBox(height: 20),
             TextField(
               controller: _emailCOntroller,
+              decoration: const InputDecoration(labelText: 'Email'),
+              keyboardType: TextInputType.emailAddress,
+            ),
+            const SizedBox(height: 10),
+            TextField(
+              controller: _passwordController,
               decoration: const InputDecoration(labelText: 'Password'),
               obscureText: true,
             ),
