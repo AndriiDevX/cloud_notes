@@ -21,9 +21,9 @@ class Note {
       id: doc.id,
       title: data['title'] ?? '',
       content: data['content'] ?? '',
-      userId: data['userid'] ?? '',
-      createAt: data['createdAt'] != null 
-          ? (data['createdAt'] as Timestamp).toDate() 
+      userId: data['userId'] ?? '',
+      createAt: data['createdAt'] != null
+          ? (data['createdAt'] as Timestamp).toDate()
           : DateTime.now(),
     );
   }
